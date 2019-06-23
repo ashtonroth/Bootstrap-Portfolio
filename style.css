@@ -29,8 +29,7 @@ body{
 
 
 .container {
-    
-    background-color: white ;
+   background-color: white ;
     margin-top: 120px ; 
     margin-bottom: 90px ;
     border-style: solid ; 
@@ -84,4 +83,19 @@ h1{
     border-top-style: Solid ;
     border-top-width: 5px ; 
     border-top-color: teal ;
+}
+@media (max-width:770px) and (min-width:640px){
+    .work h3 {
+        position: absolute;
+        bottom: 20px;
+        width: 100px ;
+        padding: 15px;
+        margin-bottom: 0;
+        font-weight: 300;
+        line-height: 10px;
+        color: #ffffff;
+        text-align: center;
+        background: #4aaaa5;
+        border-bottom: 0;
+    }
 }
